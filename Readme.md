@@ -1,5 +1,16 @@
-# DMZ-Black-96dpi
+# DMZ-White-96dpi
 
-This is DMZ-Black, but only with the 96 dpi (24x24) version. This is to bypass the stupid huge cursor thing that happens on some distros if you have a big resolution monitor. (Where even `Xcursor.size: 24` doesn't seem to do anything helpful.)
+This is the DMZ-White icon theme, but only with the 96 dpi (24x24) cursors. This is a fix to the huge cursor issue that can be encountered on some linux distributions or with some window managers. This is a fork of [codecats dmzblack-96dpi](https://github.com/codecat/dmzblack-96dpi), I just replaced the cursors with the cursors from DMZ-White and fixed the scripts to work properly on Ubuntu.
 
-To install, simply run `sudo ./install.sh` and it will make and install the cursor theme, and after that run `change_cursor.sh` for you.
+## How to Install
+1. Run ```sudo ./install.sh```
+2. Select the DMZ-White-96dpi theme
+3. Run ```dconf-editor```
+4. Navigate to **org.gnome.desktop.interface.cursor-theme**
+5. Disable the ```Use default value```-toggle and enter ```DMZ-White-96dpi``` into the *Custom value field*
+6. Click the check mark in the bottom right corner and exit the program
+7. Log out and back in again or reboot
+
+## Attribution
+**Original DMZ-White Cursor Theme:** [Jakub Steiner](http://jimmac.musichall.cz)
+**Scripts:** [codecats dmzblack-96dpi](https://github.com/codecat/dmzblack-96dpi)
