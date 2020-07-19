@@ -1,6 +1,6 @@
 #!/bin/sh
-cd DMZ-Black-96dpi/pngs
+cd DMZ-White-96dpi/pngs
 ./make.sh
 cd ../..
-cp -r DMZ-Black-96dpi /usr/share/icons/
+cp -r DMZ-White-96dpi /usr/share/icons/
 ./change_cursor.sh
