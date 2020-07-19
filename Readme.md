@@ -12,5 +12,5 @@ This is the DMZ-White icon theme, but only with the 96 dpi (24x24) cursors. This
 7. Log out and back in again or reboot
 
 ## Attribution
-**Original DMZ-White Cursor Theme:** [Jakub Steiner](http://jimmac.musichall.cz)
+**Original DMZ-White Cursor Theme:** [Jakub Steiner](http://jimmac.musichall.cz) <br>
 **Scripts:** [codecats dmzblack-96dpi](https://github.com/codecat/dmzblack-96dpi)
